@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+.headers{
+    display: grid;
+    grid-template-columns: 800px 200px  450px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+            "image"
+            "names"
+            "logouts";
+
+    height: 100px;
+}
+.images{
+	
+}
+
+.names{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.search{		
+    text-align: center;
+
+}
+
+.logouts{
+	margin-top: 100px; 
+	color:black;
+	width:350px;
+}

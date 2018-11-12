@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+.full_page{
+    display: grid;
+    grid-area: full_page;
+    background-image: url("images/ashi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 40px 750px;
+    grid-template-areas:
+            "header"
+            "navigation"
+            "middle"
+ 
+}
+
+.td{
+	height:20px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 150px 1fr  350px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+            "image"
+            "name"
+            "logout";
+
+
+    height: 100px;
+}
+
+.name{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.search{		
+    text-align: center;
+
+}
+
+.logout{
+	margin-top: 1000px; 
+	color:black;
+}
+
+.navigation {
+     height: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: "Georgia", Times, serif;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size:25px;
+}
+
+li a:hover:not(.active) {
+    background-color: dodgerblue;
+}
+
+
+
+.active{
+    background-color: dodgerblue;
+}
+
+.middle{
+}
+
+
+.photo{
+    height: 225px;
+    display: none;
+}
+
+
+la{
+    font-size: 3em;
+    width: 2em;
+    height: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
